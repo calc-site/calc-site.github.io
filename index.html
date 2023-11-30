@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Calc</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="test-calc">
+    <div class="nice-form-group">
+        <label>Range slider</label>
+        <input type="range" min="0" max="15"/>
+    </div>
+    <div class="nice-form-group">
+        <label>Select</label>
+        <select>
+            <option>Please select a value</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+        </select>
+    </div>
+    <fieldset class="nice-form-group">
+        <div class="nice-form-group">
+            <input type="checkbox" id="check-1"/>
+            <label for="check-1">Checkbox with label</label>
+        </div>
 
+        <div class="nice-form-group">
+            <input type="checkbox" id="check-2"/>
+            <label for="check-2">
+                Checkbox with label
+                <small>I am additional information regarding this field</small>
+            </label>
+        </div>
+    </fieldset>
+</div>
+<script src="js/index.js"></script>
 </body>
 </html>
