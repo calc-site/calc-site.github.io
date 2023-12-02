@@ -1,9 +1,1 @@
-(function () {
-    const range = document.getElementById('range')
-    range.addEventListener('change', function (e) {
-        document.getElementById('value').value = e.target.value;
-    })
-    range.addEventListener('input', function (e) {
-        document.getElementById('value').value = e.target.value;
-    })
-})()
+"use strict";(()=>{(function(){let t=document.querySelectorAll(".block");for(let e of t)e.querySelector(".package-content .toggle-button")?.addEventListener("click",c=>{c.preventDefault(),e.querySelector(".package-content .content")?.classList.toggle("active")})})();})();
